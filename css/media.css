@@ -1,0 +1,1182 @@
+/* Extra large devices */
+@media (min-width: 1200px) {}
+
+/* Large devices */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    /* All Common CSS Start */
+    * {
+        overflow-x: hidden;
+        box-sizing: border-box;
+    }
+
+    /* All Common CSS End */
+
+    /* Header Part Start */
+    .navbar-toggler {
+        border: 1px solid #EAB308;
+        color: #EAB308;
+    }
+
+    .navbar-toggler:focus {
+        box-shadow: none;
+    }
+    .navbar-nav {
+        /* background: rgb(43, 43, 43); */
+       
+    }
+
+    /* Header Part End */
+
+    /* Banner Part Start */
+    #bannerPart {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+
+    .bannerText {
+        margin-top: 100px;
+        padding-left: 10px;
+    }
+
+    .bannerText h4 {
+        font-size: 15px;
+        line-height: 20px;
+        padding-bottom: 0px;
+    }
+
+    .bannerText h1 {
+        font-size: 25px;
+        line-height: 50px;
+        padding-bottom: 0px;
+    }
+
+    .bannerText p {
+        font-size: 15px;
+        line-height: 25px;
+        margin-bottom: 15px;
+        padding-right: 10px;
+    }
+
+    .bannerText a {
+        font-size: 15px;
+        padding: 5px 10px;
+    }
+
+    .bannerImage {
+        margin-top: 10px;
+    }
+
+    /* Banner Part End */
+
+    /* About Me Part Start */
+    #aboutMePart {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    .aboutMeText {
+        margin-top: 10px;
+        text-align: center;
+    }
+
+    .aboutMeText h3 {
+        font-size: 35px;
+        padding-bottom: 0;
+    }
+
+    .aboutMeText p {
+        font-size: 15px;
+    }
+
+    .aboutMeTextFirstLine {
+        padding-right: 0;
+    }
+
+    .aboutMeTextSecondLine {
+        padding-right: 0;
+        margin-bottom: 20px;
+    }
+
+    .aboutMeText a {
+        font-size: 15px;
+        padding: 10px 15px;
+    }
+
+    /* About Me Part End */
+
+    /* Service Part Start */
+    #servicePart {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    .serviceHead {
+        text-align: left;
+    }
+
+    .serviceHead h3 {
+        font-size: 35px;
+        padding-bottom: 0;
+    }
+
+    .serviceHead p {
+        font-size: 15px;
+        padding-right: 0;
+    }
+
+    .serviceItem {
+        margin-top: 40px;
+        padding: 20px;
+    }
+
+    .serviceItem img {
+        margin-bottom: 15px;
+    }
+
+    .serviceItem h3 {
+        font-size: 25px;
+        margin-bottom: 5px;
+    }
+
+    .serviceItemOne h3 {
+        padding: 0;
+    }
+
+    .serviceItemTwo h3 {
+        padding: 0 10px;
+    }
+
+    .serviceItem p {
+        font-size: 15px;
+        padding: 0px;
+    }
+
+    /* Service Part End */
+
+    /* Portfolio Part Start */
+    #portfolioPart {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    .portfolioHead h3 {
+        font-size: 35px;
+        padding-bottom: 0px;
+    }
+
+    .portfolioHead p {
+        font-size: 15px;
+        padding: 0;
+        margin-bottom: 35px;
+    }
+
+    .portfolioItemImgLeft {
+        margin-bottom: 20px;
+    }
+
+    /* Portfolio Part End */
+
+    /* Experience Part Start */
+    #experiencePart {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    .experienceHead {
+        text-align: left;
+    }
+
+    .experienceHead h3 {
+        font-size: 30px;
+        padding-bottom: 0px;
+    }
+
+    .experienceHead p {
+        font-size: 15px;
+        padding: 0;
+        margin-bottom: 35px;
+    }
+
+    .experienceHead p {
+        margin-bottom: 5px;
+    }
+
+    .experienceItem {
+        margin-top: 35px;
+        padding: 25px;
+    }
+
+    .experienceItem h2 {
+        font-size: 19px;
+        padding-bottom: 0px;
+    }
+
+    .experienceItem p {
+        padding-right: 15px;
+    }
+
+    /* Experience Part End */
+
+    /* Contact Part Start */
+    #contactPart {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    .contactHead {
+        text-align: center;
+    }
+
+    .contactHead h3 {
+        font-size: 35px;
+        padding-bottom: 0px;
+    }
+
+    .contactHead p {
+        font-size: 15px;
+        padding: 0;
+        margin-bottom: 10px;
+    }
+
+    .contactLeftText {
+        margin-top: 15px;
+        margin-left: 10px;
+    }
+
+    .contactLeftText p {
+        font-size: 15px;
+        font-weight: 300;
+        line-height: 40px;
+        padding-bottom: 0;
+    }
+
+    .contactForm {
+        margin-top: 20px;
+    }
+
+    .contactForm input {
+        width: 95%;
+        height: 55px;
+        margin-bottom: 20px;
+    }
+
+    .contactForm textarea {
+        width: 95%;
+        height: 150px;
+        margin-bottom: 20px;
+    }
+
+    .contactForm a {
+        padding: 10px 15px;
+    }
+
+    /* Contact Part End */
+
+    /* Footer Part Start */
+    #footerPart {
+        padding-top: 30px;
+    }
+
+    .footerHead p {
+        padding: 0 10px;
+        margin-bottom: 35px;
+    }
+
+    .footerIconHolder i {
+        font-size: 20px;
+    }
+
+    /* Footer Part End */
+
+    .back-to-top i {
+        color: #EAB308;
+        font-size: 30px;
+    }
+}
+
+/* Medium devices */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    /* All Common CSS Start */
+    * {
+        overflow-x: hidden;
+        box-sizing: border-box;
+    }
+
+    /* All Common CSS End */
+
+    /* Header Part Start */
+    .navbar-toggler {
+        border: 1px solid #EAB308;
+        color: #EAB308;
+    }
+
+    .navbar-toggler:focus {
+        box-shadow: none;
+    }
+
+    .navbar-nav {
+        background: rgb(43, 43, 43);
+        text-align: center;
+        padding-top: 20px;
+    }
+
+    /* Header Part End */
+
+    /* Banner Part Start */
+    #bannerPart {
+        padding-top: 5px;
+        padding-bottom: 60px;
+    }
+
+    .bannerText {
+        margin-top: 100px;
+        padding-left: 10px;
+    }
+
+    .bannerText h4 {
+        font-size: 15px;
+        line-height: 20px;
+        padding-bottom: 0px;
+    }
+
+    .bannerText h1 {
+        font-size: 25px;
+        line-height: 50px;
+        padding-bottom: 0px;
+    }
+
+    .bannerText p {
+        font-size: 15px;
+        line-height: 25px;
+        margin-bottom: 15px;
+        padding-right: 10px;
+    }
+
+    .bannerText a {
+        font-size: 15px;
+        padding: 5px 10px;
+    }
+
+    .bannerImage {
+        margin-top: 10px;
+    }
+
+    /* Banner Part End */
+
+    /* About Me Part Start */
+    #aboutMePart {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    .aboutMeText {
+        margin-top: 10px;
+        text-align: center;
+    }
+
+    .aboutMeText h3 {
+        font-size: 35px;
+        padding-bottom: 0;
+    }
+
+    .aboutMeText p {
+        font-size: 15px;
+    }
+
+    .aboutMeTextFirstLine {
+        padding-right: 0;
+    }
+
+    .aboutMeTextSecondLine {
+        padding-right: 0;
+        margin-bottom: 20px;
+    }
+
+    .aboutMeText a {
+        font-size: 15px;
+        padding: 10px 15px;
+    }
+
+    /* About Me Part End */
+
+    /* Service Part Start */
+    #servicePart {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    .serviceHead {
+        text-align: center;
+    }
+
+    .serviceHead h3 {
+        font-size: 35px;
+        padding-bottom: 0;
+    }
+
+    .serviceHead p {
+        font-size: 15px;
+        padding-right: 0;
+    }
+
+    .serviceItem {
+        margin-top: 40px;
+        padding: 20px;
+    }
+
+    .serviceItem img {
+        margin-bottom: 15px;
+    }
+
+    .serviceItem h3 {
+        font-size: 25px;
+        margin-bottom: 5px;
+    }
+
+    .serviceItemOne h3 {
+        padding: 0;
+    }
+
+    .serviceItemTwo h3 {
+        padding: 0 10px;
+    }
+
+    .serviceItem p {
+        font-size: 15px;
+        padding: 0px;
+    }
+
+    /* Service Part End */
+
+    /* Portfolio Part Start */
+    #portfolioPart {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    .portfolioHead h3 {
+        font-size: 35px;
+        padding-bottom: 0px;
+    }
+
+    .portfolioHead p {
+        font-size: 15px;
+        padding: 0;
+        margin-bottom: 35px;
+    }
+
+    .portfolioItemImgLeft {
+        margin-bottom: 20px;
+    }
+
+    /* Portfolio Part End */
+
+    /* Experience Part Start */
+    #experiencePart {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    .experienceHead {
+        text-align: center;
+    }
+
+    .experienceHead h3 {
+        font-size: 30px;
+        padding-bottom: 0px;
+    }
+
+    .experienceHead p {
+        font-size: 15px;
+        padding: 0;
+        margin-bottom: 35px;
+    }
+
+    .experienceHead p {
+        margin-bottom: 5px;
+    }
+
+    .experienceItem {
+        margin-top: 35px;
+        padding: 25px;
+    }
+
+    .experienceItem h2 {
+        font-size: 19px;
+        padding-bottom: 0px;
+    }
+
+    .experienceItem p {
+        padding-right: 15px;
+    }
+
+    /* Experience Part End */
+
+    /* Contact Part Start */
+    #contactPart {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    .contactHead {
+        text-align: center;
+    }
+
+    .contactHead h3 {
+        font-size: 35px;
+        padding-bottom: 0px;
+    }
+
+    .contactHead p {
+        font-size: 15px;
+        padding: 0;
+        margin-bottom: 10px;
+    }
+
+    .contactLeftText {
+        margin-top: 15px;
+        margin-left: 10px;
+    }
+
+    .contactLeftText p {
+        font-size: 15px;
+        font-weight: 300;
+        line-height: 40px;
+        padding-bottom: 0;
+    }
+
+    .contactForm {
+        margin-top: 20px;
+    }
+
+    .contactForm input {
+        width: 95%;
+        height: 55px;
+        margin-bottom: 20px;
+    }
+
+    .contactForm textarea {
+        width: 95%;
+        height: 150px;
+        margin-bottom: 20px;
+    }
+
+    .contactForm a {
+        padding: 10px 15px;
+    }
+
+    /* Contact Part End */
+
+    /* Footer Part Start */
+    #footerPart {
+        padding-top: 30px;
+    }
+
+    .footerHead p {
+        padding: 0 10px;
+        margin-bottom: 35px;
+    }
+
+    .footerIconHolder i {
+        font-size: 20px;
+    }
+
+    /* Footer Part End */
+
+    .back-to-top i {
+        color: #EAB308;
+        font-size: 30px;
+    }
+}
+
+/* Small devices  */
+@media (min-width: 576px) and (max-width: 767.98px) {
+        /* All Common CSS Start */
+        * {
+            overflow-x: hidden;
+            box-sizing: border-box;
+        }
+    
+        /* All Common CSS End */
+    
+        /* Header Part Start */
+        .navbar-toggler {
+            border: 1px solid #EAB308;
+            color: #EAB308;
+        }
+    
+        .navbar-toggler:focus {
+            box-shadow: none;
+        }
+    
+        .navbar-nav {
+            background: rgb(43, 43, 43);
+            text-align: center;
+            padding-top: 20px;
+        }
+    
+        /* Header Part End */
+    
+        /* Banner Part Start */
+        #bannerPart {
+            padding-top: 5px;
+            padding-bottom: 60px;
+        }
+    
+        .bannerText {
+            margin-top: 100px;
+            padding-left: 10px;
+        }
+    
+        .bannerText h4 {
+            font-size: 15px;
+            line-height: 20px;
+            padding-bottom: 0px;
+        }
+    
+        .bannerText h1 {
+            font-size: 25px;
+            line-height: 50px;
+            padding-bottom: 0px;
+        }
+    
+        .bannerText p {
+            font-size: 15px;
+            line-height: 25px;
+            margin-bottom: 15px;
+            padding-right: 10px;
+        }
+    
+        .bannerText a {
+            font-size: 15px;
+            padding: 5px 10px;
+        }
+    
+        .bannerImage {
+            margin-top: 10px;
+        }
+    
+        /* Banner Part End */
+    
+        /* About Me Part Start */
+        #aboutMePart {
+            padding-top: 40px;
+            padding-bottom: 40px;
+        }
+    
+        .aboutMeText {
+            margin-top: 10px;
+            text-align: center;
+        }
+    
+        .aboutMeText h3 {
+            font-size: 35px;
+            padding-bottom: 0;
+        }
+    
+        .aboutMeText p {
+            font-size: 15px;
+        }
+    
+        .aboutMeTextFirstLine {
+            padding-right: 0;
+        }
+    
+        .aboutMeTextSecondLine {
+            padding-right: 0;
+            margin-bottom: 20px;
+        }
+    
+        .aboutMeText a {
+            font-size: 15px;
+            padding: 10px 15px;
+        }
+    
+        /* About Me Part End */
+    
+        /* Service Part Start */
+        #servicePart {
+            padding-top: 40px;
+            padding-bottom: 40px;
+        }
+    
+        .serviceHead {
+            text-align: center;
+        }
+    
+        .serviceHead h3 {
+            font-size: 35px;
+            padding-bottom: 0;
+        }
+    
+        .serviceHead p {
+            font-size: 15px;
+            padding-right: 0;
+        }
+    
+        .serviceItem {
+            margin-top: 40px;
+            padding: 20px;
+        }
+    
+        .serviceItem img {
+            margin-bottom: 15px;
+        }
+    
+        .serviceItem h3 {
+            font-size: 25px;
+            margin-bottom: 5px;
+        }
+    
+        .serviceItemOne h3 {
+            padding: 0;
+        }
+    
+        .serviceItemTwo h3 {
+            padding: 0 10px;
+        }
+    
+        .serviceItem p {
+            font-size: 15px;
+            padding: 0px;
+        }
+    
+        /* Service Part End */
+    
+        /* Portfolio Part Start */
+        #portfolioPart {
+            padding-top: 40px;
+            padding-bottom: 40px;
+        }
+    
+        .portfolioHead h3 {
+            font-size: 35px;
+            padding-bottom: 0px;
+        }
+    
+        .portfolioHead p {
+            font-size: 15px;
+            padding: 0;
+            margin-bottom: 35px;
+        }
+    
+        .portfolioItemImgLeft {
+            margin-bottom: 20px;
+        }
+    
+        /* Portfolio Part End */
+    
+        /* Experience Part Start */
+        #experiencePart {
+            padding-top: 40px;
+            padding-bottom: 40px;
+        }
+    
+        .experienceHead {
+            text-align: center;
+        }
+    
+        .experienceHead h3 {
+            font-size: 30px;
+            padding-bottom: 0px;
+        }
+    
+        .experienceHead p {
+            font-size: 15px;
+            padding: 0;
+            margin-bottom: 35px;
+        }
+    
+        .experienceHead p {
+            margin-bottom: 5px;
+        }
+    
+        .experienceItem {
+            margin-top: 35px;
+            padding: 25px;
+        }
+    
+        .experienceItem h2 {
+            font-size: 19px;
+            padding-bottom: 0px;
+        }
+    
+        .experienceItem p {
+            padding-right: 15px;
+        }
+    
+        /* Experience Part End */
+    
+        /* Contact Part Start */
+        #contactPart {
+            padding-top: 40px;
+            padding-bottom: 40px;
+        }
+    
+        .contactHead {
+            text-align: center;
+        }
+    
+        .contactHead h3 {
+            font-size: 35px;
+            padding-bottom: 0px;
+        }
+    
+        .contactHead p {
+            font-size: 15px;
+            padding: 0;
+            margin-bottom: 10px;
+        }
+    
+        .contactLeftText {
+            margin-top: 15px;
+            margin-left: 10px;
+        }
+    
+        .contactLeftText p {
+            font-size: 15px;
+            font-weight: 300;
+            line-height: 40px;
+            padding-bottom: 0;
+        }
+    
+        .contactForm {
+            margin-top: 20px;
+        }
+    
+        .contactForm input {
+            width: 95%;
+            height: 55px;
+            margin-bottom: 20px;
+        }
+    
+        .contactForm textarea {
+            width: 95%;
+            height: 150px;
+            margin-bottom: 20px;
+        }
+    
+        .contactForm a {
+            padding: 10px 15px;
+        }
+    
+        /* Contact Part End */
+    
+        /* Footer Part Start */
+        #footerPart {
+            padding-top: 30px;
+        }
+    
+        .footerHead p {
+            padding: 0 10px;
+            margin-bottom: 35px;
+        }
+    
+        .footerIconHolder i {
+            font-size: 20px;
+        }
+    
+        /* Footer Part End */
+    
+        .back-to-top i {
+            color: #EAB308;
+            font-size: 30px;
+        }
+}
+
+/* Extra small devices */
+@media (max-width: 575.98px) {
+
+    /* All Common CSS Start */
+    * {
+        overflow-x: hidden;
+        box-sizing: border-box;
+    }
+
+    /* All Common CSS End */
+
+    /* Header Part Start */
+    .navbar-toggler {
+        border: 1px solid #EAB308;
+        color: #EAB308;
+    }
+
+    .navbar-toggler:focus {
+        box-shadow: none;
+    }
+
+    .navbar-nav {
+        background: rgb(43, 43, 43);
+        text-align: center;
+        padding-top: 20px;
+    }
+
+    /* Header Part End */
+
+    /* Banner Part Start */
+    #bannerPart {
+        padding-top: 5px;
+        padding-bottom: 60px;
+    }
+
+    .bannerText {
+        margin-top: 100px;
+        padding-left: 10px;
+    }
+
+    .bannerText h4 {
+        font-size: 15px;
+        line-height: 20px;
+        padding-bottom: 0px;
+    }
+
+    .bannerText h1 {
+        font-size: 25px;
+        line-height: 50px;
+        padding-bottom: 0px;
+    }
+
+    .bannerText p {
+        font-size: 15px;
+        line-height: 25px;
+        margin-bottom: 15px;
+        padding-right: 10px;
+    }
+
+    .bannerText a {
+        font-size: 15px;
+        padding: 5px 10px;
+    }
+
+    .bannerImage {
+        margin-top: 10px;
+    }
+
+    /* Banner Part End */
+
+    /* About Me Part Start */
+    #aboutMePart {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    .aboutMeText {
+        margin-top: 10px;
+        text-align: center;
+    }
+
+    .aboutMeText h3 {
+        font-size: 35px;
+        padding-bottom: 0;
+    }
+
+    .aboutMeText p {
+        font-size: 15px;
+    }
+
+    .aboutMeTextFirstLine {
+        padding-right: 0;
+    }
+
+    .aboutMeTextSecondLine {
+        padding-right: 0;
+        margin-bottom: 20px;
+    }
+
+    .aboutMeText a {
+        font-size: 15px;
+        padding: 10px 15px;
+    }
+
+    /* About Me Part End */
+
+    /* Service Part Start */
+    #servicePart {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    .serviceHead {
+        text-align: center;
+    }
+
+    .serviceHead h3 {
+        font-size: 35px;
+        padding-bottom: 0;
+    }
+
+    .serviceHead p {
+        font-size: 15px;
+        padding-right: 0;
+    }
+
+    .serviceItem {
+        margin-top: 40px;
+        padding: 20px;
+    }
+
+    .serviceItem img {
+        margin-bottom: 15px;
+    }
+
+    .serviceItem h3 {
+        font-size: 25px;
+        margin-bottom: 5px;
+    }
+
+    .serviceItemOne h3 {
+        padding: 0;
+    }
+
+    .serviceItemTwo h3 {
+        padding: 0 10px;
+    }
+
+    .serviceItem p {
+        font-size: 15px;
+        padding: 0px;
+    }
+
+    /* Service Part End */
+
+    /* Portfolio Part Start */
+    #portfolioPart {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    .portfolioHead h3 {
+        font-size: 35px;
+        padding-bottom: 0px;
+    }
+
+    .portfolioHead p {
+        font-size: 15px;
+        padding: 0;
+        margin-bottom: 35px;
+    }
+
+    .portfolioItemImgLeft {
+        margin-bottom: 20px;
+    }
+
+    /* Portfolio Part End */
+
+    /* Experience Part Start */
+    #experiencePart {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    .experienceHead {
+        text-align: center;
+    }
+
+    .experienceHead h3 {
+        font-size: 30px;
+        padding-bottom: 0px;
+    }
+
+    .experienceHead p {
+        font-size: 15px;
+        padding: 0;
+        margin-bottom: 35px;
+    }
+
+    .experienceHead p {
+        margin-bottom: 5px;
+    }
+
+    .experienceItem {
+        margin-top: 35px;
+        padding: 25px;
+    }
+
+    .experienceItem h2 {
+        font-size: 19px;
+        padding-bottom: 0px;
+    }
+
+    .experienceItem p {
+        padding-right: 15px;
+    }
+
+    /* Experience Part End */
+
+    /* Contact Part Start */
+    #contactPart {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    .contactHead {
+        text-align: center;
+    }
+
+    .contactHead h3 {
+        font-size: 35px;
+        padding-bottom: 0px;
+    }
+
+    .contactHead p {
+        font-size: 15px;
+        padding: 0;
+        margin-bottom: 10px;
+    }
+
+    .contactLeftText {
+        margin-top: 15px;
+        margin-left: 10px;
+    }
+
+    .contactLeftText p {
+        font-size: 15px;
+        font-weight: 300;
+        line-height: 40px;
+        padding-bottom: 0;
+    }
+
+    .contactForm {
+        margin-top: 20px;
+    }
+
+    .contactForm input {
+        width: 95%;
+        height: 55px;
+        margin-bottom: 20px;
+    }
+
+    .contactForm textarea {
+        width: 95%;
+        height: 150px;
+        margin-bottom: 20px;
+    }
+
+    .contactForm a {
+        padding: 10px 15px;
+    }
+
+    /* Contact Part End */
+
+    /* Footer Part Start */
+    #footerPart {
+        padding-top: 30px;
+    }
+
+    .footerHead p {
+        padding: 0 10px;
+        margin-bottom: 35px;
+    }
+
+    .footerIconHolder i {
+        font-size: 20px;
+    }
+
+    /* Footer Part End */
+
+    .back-to-top i {
+        color: #EAB308;
+        font-size: 30px;
+    }
+
+}

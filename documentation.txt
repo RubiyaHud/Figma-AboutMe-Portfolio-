@@ -1,0 +1,8 @@
+CSS folder -> style.css ( my CSS file)
+CSS folder -> all.min.css (CSS file of Font Awesome)
+CSS folder -> bootstrap.min.css (CSS file which we can get by downloading the Bootstrap)
+By Downloading the Bootstrap (version 5), we will get the Compiled CSS and JS folder
+-------------------------------------------------------------------------------------------------------------
+JS folder -> script.js ( my JS file)
+JS folder -> all.min.css (CSS file of Font Awesome)
+JS folder -> bootstrap.min.css (CSS file which we can get by downloading the Bootstrap)

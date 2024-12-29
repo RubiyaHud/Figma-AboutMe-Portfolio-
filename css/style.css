@@ -1,0 +1,428 @@
+/* All Common CSS Start */
+* {
+    margin: 0;
+    padding: 0;
+    /* For Bootstrap, we need to make outline = 0, because by default it gets some outline */
+    outline: 0;
+    font-family: "Lexend Deca", serif;
+}
+/* For Bootstrap a:hover gets text-decoration, by default, so we need to make it "none" */
+a,
+a:hover {
+    text-decoration: none;
+    display: inline-block;
+}
+ul,
+ol {
+    list-style-type: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+    padding: 0;
+    line-height: 0.8;
+}
+/* All Common CSS End */
+
+/* Sticky Header Start */
+.stickyHeader {
+    background: rgb(43, 43, 43);
+    /* background: rgba(255, 192, 203, 0.705); */
+    animation: alamin 1s;
+}
+
+@keyframes alamin {
+    from {
+        top: -10px;
+    }
+    
+    to {
+        top: 0;
+    }
+}
+/* Sticky Header End*/
+
+/* Back To Top Start */
+.back-to-top{
+    position: fixed;
+    right: 25px;
+    bottom: 25px;
+}
+.back-to-top i{
+    color: #EAB308;
+    font-size: 40px;
+}
+/* Back To Top End */
+
+/* Header Part Start */
+/* .navbar {
+    background: #020617;
+    padding: 3px 0;
+} */
+.navbar {
+    /* background: #020617; */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+.nav-link {
+    color: #9CA3AF;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: uppercase;
+    /* padding is not applicable here, coz parent div has already used it */
+    margin: 0 15px;
+}
+.nav-link:hover {
+    color: #FFFFFF;
+}
+/* Header Part End */
+
+/* Banner Part Start  */
+#bannerPart{
+    padding-top: 96px;
+    padding-bottom: 96px;
+    background: #111827;
+}
+.bannerText{
+    margin-top: 100px;
+}
+.bannerText h4{
+    color: #EAB308;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 27px;
+    padding-bottom: 20px;
+}
+.bannerText h1{
+    color: #F3F4F6;
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 64px;
+    padding-bottom: 15px;
+}
+.bannerText p{
+    color: #6B7280;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 27px;
+    margin-bottom: 10px;
+    padding-right: 50px;
+}
+.bannerText a{
+    color: #000000;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 27px;
+    padding: 10px 15px;
+    background: #FACC15;
+    border-radius: 4px;
+}
+/* Banner Part End */
+
+/* About Me Part Start */
+#aboutMePart{
+    padding-top: 96px;
+    padding-bottom: 96px;
+    background: #020617;
+}
+.aboutMeText {
+    margin-top: 80px;
+}
+.aboutMeText h3{
+    color: #F3F4F6;
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 64px;
+    padding-bottom: 32px;
+}
+.aboutMeText h3 span{
+    color: #EAB308;
+}
+.aboutMeText p{
+    color: #6B7280;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 27px;    
+}
+.aboutMeTextFirstLine{
+    padding-right: 132px;
+    padding-bottom: 18px;
+}
+.aboutMeTextSecondLine{
+    padding-right: 127px;
+    margin-bottom: 40px;
+}
+.aboutMeText a{
+    color: #000000;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Arvo", serif;
+    line-height: 27px;
+    padding: 16px 20px;
+    background: #EAB308;
+    border-radius: 4px;
+}
+/* About Me Part End */
+
+/* Service Part Start */
+#servicePart{
+    padding-top: 96px;
+    padding-bottom: 96px;
+    background: #111827;
+}
+.serviceHead h3{
+    color: #F3F4F6;
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 64px;
+    padding-bottom: 24px;
+}
+.serviceHead h3 span{
+    color: #EAB308;
+}
+.serviceHead p {
+    color: #6B7280;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 27px;
+    padding-right: 135px;
+}
+.serviceItem{
+    text-align: center;
+    background: #020617;
+    border-radius: 12px;
+    margin-top: 56px;
+    padding: 32px;
+}
+.serviceItem img{
+    margin-bottom: 32px;
+}
+.serviceItem h3{
+    color: #F3F4F6;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 41px;
+    text-transform: capitalize;
+    margin-bottom: 16px;
+}
+.serviceItemOne h3{
+    padding:0 60px;
+}
+.serviceItemTwo h3 {
+    padding: 0 65px;
+}
+.serviceItemThree h3 {
+    padding: 0 15px;
+}
+.serviceItem p {
+    color: #6B7280;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 27px;
+    padding: 0px 39px;
+}
+/* Service Part End */
+
+#portfolioPart{
+    padding-top: 96px;
+    padding-bottom: 96px;
+    background: #020617;
+}
+.portfolioHead h3{
+    color: #F3F4F6;
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 64px;
+    padding-bottom: 24px;
+}
+.portfolioHead h3 span{
+    color: #EAB308;
+}
+.portfolioHead p {
+    color: #9CA3AF;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 27px;
+    padding: 0 89px;
+    margin-bottom: 80px;
+}
+.portfolioItemImg img{
+    margin-bottom: 29px;
+}
+
+/* Experience Part Start */
+#experiencePart{
+    padding-top: 85px;
+    padding-bottom: 85px;
+    background: #191D28;
+}
+.experienceHead h3{
+    color: #F3F4F6;
+    font-family: "Arvo", serif;
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 64px;
+    text-transform: capitalize;
+    padding-bottom: 24px;
+}
+.experienceHead h3 span{
+    color: #EAB308;
+}
+.experienceHead p {
+    color: #9CA3AF;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 27px;
+}
+.experienceItem{
+    background: #020617;
+    border-radius: 12px;
+    margin-top: 80px;
+    padding: 32px;
+}
+.experienceItem h2{
+    color: #D1D5DB;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 27px;
+    padding-bottom: 8px;
+}
+.experienceItem h3{
+    color: #EAB308;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 41px;
+}
+.experienceItem h4{
+    color: #D1D5DB;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 27px;
+    text-transform: capitalize;
+    padding-bottom: 8px;
+}
+.experienceItem p{
+    color: #6B7280;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 27px;
+    padding-right: 51px;
+}
+/* Experience Part End */
+
+/* Contact Part Start */
+#contactPart{
+    padding-top: 96px;
+    padding-bottom: 96px;
+    background: #020617;
+}
+.contactHead h3{
+    color: #F3F4F6;
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 64px;
+    text-transform: capitalize;
+    padding-bottom: 24px;
+}
+.contactHead h3 span{
+    color: #EAB308;
+}
+.contactHead p {
+    color: #9CA3AF;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 27px;
+    padding: 0 60px;
+    margin-bottom: 56px;
+}
+.contactLeftText {
+    margin-top: 45px;
+}
+.contactLeftText p{
+    color: #F3F4F6;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 41px;
+    padding-bottom: 16px;
+
+}
+.contactLeftText p span{
+    color: #EAB308;
+    font-weight: 700;
+}
+.contactForm input{
+    background: #1F2937;
+    border: none;
+    border-radius: 0;
+    width: 350px;
+    height: 63px;
+    margin-bottom: 32px;
+}
+.contactForm input::placeholder{
+    color: #F3F4F6;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 41px;
+}
+.contactForm textarea{
+    background: #1F2937;
+    border: none;
+    border-radius: 0;
+    width: 540px;
+    height: 166px;
+    margin-bottom: 32px;
+}
+.contactForm textarea::placeholder{
+    color: #F3F4F6;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 41px;
+}
+.contactForm a{
+    color: #000000;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 27px;
+    padding: 16px 20px;
+    background: #EAB308;
+    border-radius: 4px;
+}
+/* Contact Part End */
+
+/* Footer Part Start */
+#footerPart{
+    padding-top: 56px;
+    padding-bottom: 56px;
+    background: #020617;
+}
+.footerHead h3{
+    color: #FFFFFF;
+    font-size: 40px;
+    font-weight: 700;
+    padding-bottom: 24px;
+}
+.footerHead p {
+    color: #9CA3AF;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 27px;
+    padding: 0 60px;
+    margin-bottom: 56px;
+}
+.footerIconHolder i{
+    color: #1F2937;
+    font-size: 24px;
+    padding: 0 5px;
+    transition: .4s;
+}
+.footerIconHolder i:hover{
+    color: #EAB308;
+}
+/* Footer Part End */
